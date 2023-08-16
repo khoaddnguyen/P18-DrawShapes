@@ -5,7 +5,8 @@ tim = t.Turtle()
 
 #from https://trinket.io/docs/colors
 colors = ["skyblue", "cadetblue", "lightskyblue", "lightseagreen", "steelblue", "mediumturquoise", "azure", "pink",
-          "palevioletred", "rosybrown", "mistyrose", "DarkSeaGreen", "MediumSeaGreen", "MediumAquamarine", "PowderBlue","Lavender"]
+          "palevioletred", "rosybrown", "mistyrose", "DarkSeaGreen", "MediumSeaGreen", "MediumAquamarine", "PowderBlue",
+          "Lavender", "LightSalmon", "LightCoral", "NavajoWhite", "LemonChiffon"]
 def draw_shape(num_sides):
     angle = 360 / num_sides
     for _ in range(num_sides):
